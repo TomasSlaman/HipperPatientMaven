@@ -1,1 +1,4 @@
+com\database\DatabaseManager.class
 com\controller\IndexController.class
+com\dao\CommentDAO.class
+com\model\Comment.class

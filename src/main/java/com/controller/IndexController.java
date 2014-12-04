@@ -17,8 +17,19 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class IndexController {
     
-    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView showIndex() {
+        
+        /*List<Comment> comments = new ArrayList<>();
+        try {
+            comments = CommentDAO.readCommentsByUserId(1);
+        } catch (SQLException e) {
+        }
+
+        for (int i = 0; i < comments.size(); i++) {
+            System.out.println(comments.get(i).getComment());
+        }*/
+        
         System.out.println("CONTROLLER RUNS");
         return new ModelAndView("index");
     }
