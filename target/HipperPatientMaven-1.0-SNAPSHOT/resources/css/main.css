@@ -1,0 +1,399 @@
+/* This is where the main styling happens (O@O) */
+
+.full-viewport {
+	height: 100vh; 
+}
+
+
+.full-hight {
+	height: 100%; 
+}
+
+
+.bubble img {
+  height:300px;
+}
+
+.bubble #Verbinden{
+  float: right; 
+  margin-top: -90px; 
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+.container-fluid.full-viewport {
+	background: rgb(253,254,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(253,254,255,1) 0%, rgba(245,246,255,1) 47%, rgba(228,234,254,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,254,255,1)), color-stop(47%,rgba(245,246,255,1)), color-stop(100%,rgba(228,234,254,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(253,254,255,1) 0%,rgba(245,246,255,1) 47%,rgba(228,234,254,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(253,254,255,1) 0%,rgba(245,246,255,1) 47%,rgba(228,234,254,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(253,254,255,1) 0%,rgba(245,246,255,1) 47%,rgba(228,234,254,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(253,254,255,1) 0%,rgba(245,246,255,1) 47%,rgba(228,234,254,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfeff', endColorstr='#e4eafe',GradientType=0 ); /* IE6-9 */
+}
+
+.row.full-hight {
+margin-right: 0px;
+margin-left: 0px; 
+}
+
+#videoInstruction,
+#ConnectSenors,
+.avatar {
+	text-align: center; 
+}
+
+
+.avatar img {
+	height: 200px; 
+	margin-top: 10%;
+}
+
+#avatar img {
+	height:600px;
+}
+
+.btn-lg{
+	float:right; 
+	margin-right: 30px;
+	padding: 8px 35px;
+	font-size: 22px; 
+}
+#videoInstruction .btn{
+	float:none;
+} 
+
+/* explanation and bubble */ 
+.bubble 
+{
+	position: relative;
+	padding: 0px;
+	background: #fff;
+	border: #7f7F7F solid 2px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.bubble:after 
+{
+	content: "";
+	position: absolute;
+	top: 104px;
+	left: -53px;
+	border-style: solid;
+	border-width: 16px 53px 16px 0;
+	border-color: transparent #fff;
+	display: block;
+	width: 0;
+	z-index: 1;
+}
+
+.bubble:before 
+{
+	content: "";
+	position: absolute;
+	top: 103px;
+	left: -56px;
+	border-style: solid;
+	border-width: 17px 54px 17px 0;
+	border-color: transparent #7f7F7F;
+	display: block;
+	width: 0;
+	z-index: 0;
+}
+
+.bubble h2 {
+	text-align:center; 
+}
+
+#explanation_exercise p,
+#explanation p {
+	font-size:23px; 
+	font-weight:300; 
+	padding: 15px; 
+	text-align: left;  
+}
+
+#speedDown,
+#speedUp{
+	margin: 11px !important;
+	padding: 6px 14px;
+	/*margin:0 14px !important; */
+}
+
+#explanation_exercise p{
+	font-size:20px !important; 
+	padding-left:30px;
+}
+#explanation_exercise h2{
+	margin-left: 15px;
+}
+	
+#explanation, 
+#exercises {
+	padding-top: 60px;
+}
+
+#left_leg_togle,
+#right_leg_togle {
+	float:left;
+	margin:0 14px !important; 
+} 
+
+#refresh_cookies{
+	position:absolute; 
+	top: 10px; 
+	left:10px; 
+	z-index: 99;
+}
+
+	
+/* EO explanation and bubble */ 
+
+#exercises .exercise_container {
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: solid 1px grey;
+	width: 80%;
+	background: rgba(221, 221, 221, 0.31);
+	height:90%;
+}
+
+.exercise_container h2 {
+	text-align:center; 
+}
+
+
+.exercise_board {
+	background:rgba(255, 255, 255, 0.67); 
+	margin:15px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: solid 1px grey;	
+}
+
+#exercises h1 { 
+	font-weight:300; 
+}
+
+.exercise {
+	height: 100px; 
+	width:350px; 
+	margin: 10px 15px; 
+	border-bottom: 1px solid grey; 
+}
+
+.exercise:hover {
+	margin-left: 10px;
+	width: 360px;
+}
+
+.exercise.active {
+	background: rgba(18, 84, 255, 0.1) ; 
+}
+
+.exercise i{
+	margin-top: -20px;
+	font-size:30px;
+	float:right;
+	color:#5cb85c;
+}
+
+
+video {
+	margin: 70px 0 20px 0;
+}
+ 
+/* ///////////////////////////////////////////  Exercise counter  //////////////////////////////////////////// */
+
+.circle{
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	height: 20px;
+	width: 20px; 
+	border: 2px solid; 
+	float: left;
+	margin: 0 15px; 
+}
+
+.green {
+	background: green; 
+}
+
+#repetitionCounter {
+	margin-top: 10px;
+}
+
+#repetitionCounter .fa {
+	font-size:50px; 
+	margin: -17px 0 0 -100px;
+}
+
+.fa-star {
+	color: gold;
+}
+
+#countdown {
+	text-align: center; 
+} 
+
+#countdown .counter{
+	font-size: 50px; 
+	font-weight: 900; 
+}
+
+/* ///////////////////////////////////////////  Video Elements  //////////////////////////////////////////// */
+
+#videoElements {
+	position:relative; 
+}
+
+
+#BackHome{
+	margin: 73px 13px 0px;
+	/*position: absolute;
+	top: 8px;
+	left: -1129px;*/
+}
+
+#rep_span {
+	display:none;
+}
+
+
+.videoButtons {
+height: 70px;
+width: 130px;
+position: absolute;
+z-index: 10;
+top: -100px;
+right: 5px;
+border-radius:5px; 
+background: #5cb85c; 
+font-size: 18px;
+color:white;
+padding: 5px;
+
+}
+.videoButtons.pauze{background: #DD792A; }
+
+#videoElements .fa {
+font-size: 35px;
+position: absolute;
+margin-left: -15px;
+top: 30px;
+}
+
+/* ///////////////////////////////////////////  Avatar Elements  //////////////////////////////////////////// */
+.avatar {
+	text-align:center; 
+	padding: 20px 0; 
+}
+
+.avatar{
+  position:relative; 
+}
+
+.bubble.left {
+position: absolute;
+top: 60px;
+left: -100px;
+padding: 10px;
+background: #fff;
+border: #7f7F7F solid 2px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+max-width: 178px;
+font-size: 18px;
+}
+
+.bubble.left:before{
+content: "";
+position: absolute;
+top: 63px;
+left: 174px;
+border-style: solid;
+border-width: 17px 54px 17px 0;
+border-color: transparent #7f7F7F;
+display: block;
+width: 0;
+z-index: 0;
+-ms-transform: rotate(180deg); /* IE 9 */
+-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */ transform: rotate(180deg);
+}
+
+.bubble.left:after {
+content: "";
+position: absolute;
+top: 64px;
+left: 170px;
+border-style: solid;
+border-width: 16px 53px 16px 0;
+border-color: transparent #fff;
+display: block;
+width: 0;
+z-index: 1;
+-ms-transform: rotate(180deg); /* IE 9 */
+-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */ transform: rotate(180deg);
+}
+
+.fa-thumbs-up {
+  font-size: 50px;
+  margin-top:15px;
+  color: #47a447; 
+} 
+
+#speed{
+  border-radius:5px;
+  padding: 10px; 
+  background: #dedede;
+  float:left;
+}
+
+#speed p{
+  font-size:18px;
+  width:100%; 
+}
+#speedDown {
+  float:left; 
+}
+
+/* ///////////////////////////////////////////  Button SPINNER  //////////////////////////////////////////// */
+
+.spinner {
+  display: inline-block;
+  opacity: 0;
+  width: 0;
+
+  -webkit-transition: opacity 0.25s, width 0.25s;
+  -moz-transition: opacity 0.25s, width 0.25s;
+  -o-transition: opacity 0.25s, width 0.25s;
+  transition: opacity 0.25s, width 0.25s;
+}
+
+.has-spinner.active {
+  cursor:progress;
+}
+
+.has-spinner.active .spinner {
+  opacity: 1;
+  width: auto; /* This doesn't work, just fix for unkown width elements */
+}
+
+.has-spinner.btn-mini.active .spinner {
+    width: 10px;
+}
+
+.has-spinner.btn-small.active .spinner {
+    width: 13px;
+}
+
+.has-spinner.btn.active .spinner {
+    width: 16px;
+}
+
+.has-spinner.btn-large.active .spinner {
+    width: 19px;
+}
